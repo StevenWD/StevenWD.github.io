@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="读书笔记,概率论与统计," />
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="上海交通大学17级计算机系研究生网络空间计算实验室">
-<meta name="keywords" content="AI，知识库构建">
-<meta property="og:type" content="website">
-<meta property="og:title" content="StevenWD的博客">
-<meta property="og:url" content="http://stevenwd.github.io/tags/概率论与数理统计/index.html">
+<meta name="description" content="胜率表示概率的方法除了使用[0, 1]之间的实数外，还可以使用比率的形式，成为胜率。胜率表示一个事件发生的概率和不发生的概率的比值。例如，如果认为我的球队有75%的概率获胜，那么他们的胜率就是3:1，即胜利的机会3倍于失败的机会。 当获胜的概率比较低是，通常称为赔率。但赔率与胜率的数学表示形式都是一样的，只是叫法不一样而已。 反向赔率的表达形式与赔率正好相反，即一个事件不发生的概率和发生的概率的比">
+<meta name="keywords" content="读书笔记,概率论与统计">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《贝叶斯思维》读书笔记（3）">
+<meta property="og:url" content="http://stevenwd.github.io/2018/07/07/《贝叶斯思维》读书笔记（3）/index.html">
 <meta property="og:site_name" content="StevenWD的博客">
-<meta property="og:description" content="上海交通大学17级计算机系研究生网络空间计算实验室">
+<meta property="og:description" content="胜率表示概率的方法除了使用[0, 1]之间的实数外，还可以使用比率的形式，成为胜率。胜率表示一个事件发生的概率和不发生的概率的比值。例如，如果认为我的球队有75%的概率获胜，那么他们的胜率就是3:1，即胜利的机会3倍于失败的机会。 当获胜的概率比较低是，通常称为赔率。但赔率与胜率的数学表示形式都是一样的，只是叫法不一样而已。 反向赔率的表达形式与赔率正好相反，即一个事件不发生的概率和发生的概率的比">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-07-07T14:31:24.190Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="StevenWD的博客">
-<meta name="twitter:description" content="上海交通大学17级计算机系研究生网络空间计算实验室">
+<meta name="twitter:title" content="《贝叶斯思维》读书笔记（3）">
+<meta name="twitter:description" content="胜率表示概率的方法除了使用[0, 1]之间的实数外，还可以使用比率的形式，成为胜率。胜率表示一个事件发生的概率和不发生的概率的比值。例如，如果认为我的球队有75%的概率获胜，那么他们的胜率就是3:1，即胜利的机会3倍于失败的机会。 当获胜的概率比较低是，通常称为赔率。但赔率与胜率的数学表示形式都是一样的，只是叫法不一样而已。 反向赔率的表达形式与赔率正好相反，即一个事件不发生的概率和发生的概率的比">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://stevenwd.github.io/tags/概率论与数理统计/"/>
+  <link rel="canonical" href="http://stevenwd.github.io/2018/07/07/《贝叶斯思维》读书笔记（3）/"/>
 
 
 
 
 
-  <title>标签: 概率论与数理统计 | StevenWD的博客</title>
+  <title>《贝叶斯思维》读书笔记（3） | StevenWD的博客</title>
   
 
 
@@ -144,7 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -262,82 +263,171 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>概率论与数理统计<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://stevenwd.github.io/2018/07/07/《贝叶斯思维》读书笔记（3）/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="StevenWD">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/head.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="StevenWD的博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/07/07/《贝叶斯思维》读书笔记（2）/" itemprop="url">
-              
-                <span itemprop="name">《贝叶斯思维》读书笔记（2）</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">《贝叶斯思维》读书笔记（3）</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-07T13:37:41+08:00"
-              content="2018-07-07" >
-          07-07
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-07T20:38:06+08:00">
+                2018-07-07
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
+      
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/07/06/《贝叶斯思维》读书笔记（1）/" itemprop="url">
-              
-                <span itemprop="name">《贝叶斯思维》读书笔记（1）</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-06T13:19:18+08:00"
-              content="2018-07-06" >
-          07-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
+        <h4 id="胜率"><a href="#胜率" class="headerlink" title="胜率"></a>胜率</h4><p>表示概率的方法除了使用<code>[0, 1]</code>之间的实数外，还可以使用比率的形式，成为胜率。胜率表示一个事件发生的概率和不发生的概率的比值。例如，如果认为我的球队有<code>75%</code>的概率获胜，那么他们的胜率就是<code>3:1</code>，即胜利的机会3倍于失败的机会。</p>
+<p>当获胜的概率比较低是，通常称为赔率。但赔率与胜率的数学表示形式都是一样的，只是叫法不一样而已。</p>
+<p>反向赔率的表达形式与赔率正好相反，即一个事件不发生的概率和发生的概率的比值。</p>
+<p>贝叶斯定理的概率形式是：<br>$$<br>p(H|D)=\frac{p(H)p(D|H)}{p(D)}<br>$$<br>如果我们有<code>A</code>和<code>B</code>两个假设，那么我们就可以写出其后验概率的比值如下：<br>$$<br>\frac{p(A|D)}{p(B|D)}=\frac{p(A)p(D|A)}{p(B)p(D|B)}<br>$$<br>如果<code>A</code>和<code>B</code>是互斥且穷尽的，则 $p(B)=1-p(A)$ 贝叶斯定理可以被重写为胜率形式：<br>$$<br>o(A|D)=o(A)\frac{p(D|A)}{p(D|B)}<br>$$<br>其中 $o(A)$ 为事件<code>A</code>的胜率，上述公式也就表明，后验胜率等于先验胜率乘以似然比。</p>
+<h4 id="奥利弗的血迹"><a href="#奥利弗的血迹" class="headerlink" title="奥利弗的血迹"></a>奥利弗的血迹</h4><p>在一个犯罪现场，有两个人遗留了血迹。一名疑犯奥利弗经过测试后发现是O型血，而犯罪现场的血型分别是O型（一种当地常见的血型，占总人口数的60%）和AB型（一种较罕见的血型，占总人口的1%）。那么这些证据能否支持奥利弗是疑犯之一？</p>
+<p>“数据支持假设”——指的是如果某一种假设随着数据的出现而呈现了更大的可能性，则我们就认为是数据支持了假设。</p>
+<p>在这个问题中，我们的假设有两个，分别是：</p>
+<ul>
+<li>假设<code>A</code>：奥利弗是疑犯之一</li>
+<li>假设<code>B</code>：奥利弗不是疑犯</li>
+</ul>
+<p>这两个假设是互斥且穷尽的，我们以胜率的角度评判数据是否支持了假设。</p>
+<p>在发现了现场的血迹，即数据<code>D</code>前后，假设<code>A</code>比率为：<br>$$<br>\frac{o(A|D)}{o(A)}=\frac{p(D|A)}{p(D|B)}<br>$$<br>当这个 $\frac{o(A|D)}{o(A)}&gt;1$ 时，我们也就认为现场发现了血迹支持了奥利弗是疑犯的假设。</p>
+<p> 当假设<code>A</code>成立时，另一名疑犯可能是总人口中血型为<code>AB</code>型的任何一人，即 $p(D|A)=0.01$ ；而当假设<code>B</code>成立时，两名疑犯需要是总人口中血型分别是O型和AB型的两人，即 $P(D|B)=2*0.01*0.6$。<br>$$<br>\frac{o(A|D)}{o(A)}=\frac{0.01}{2<em>0.01</em>0.6}=\frac{5}{6}<br>$$<br>得到这样的结果，我们就可以说，现场发现的证据并不能支持奥利弗是疑犯之一的假设。</p>
+<h4 id="概率质量函数、概率密度函数与累积分布函数"><a href="#概率质量函数、概率密度函数与累积分布函数" class="headerlink" title="概率质量函数、概率密度函数与累积分布函数"></a>概率质量函数、概率密度函数与累积分布函数</h4><p>概率质量函数（PMF）：是从每一个可能值到其概率的映射，这里可能值的个数是有限的，即是离散的；</p>
+<p>概率密度函数（PDF）：是从每一个可能值到其概率密度的映射，概率密度和概率质量是相似的，但概率密度可以是的取值范围是<code>0</code>到<code>正无穷</code>；</p>
+<p>累积分布函数（CDF）：对PMF进行求和或对PDF进行积分；</p>
+<h4 id="泊松分布"><a href="#泊松分布" class="headerlink" title="泊松分布"></a>泊松分布</h4><p>泊松分布是由二项分布演化过来的。</p>
+<p>在二项分布中，给你 $n$ 次抛硬币的机会，硬币正面向上的概率为 $p$，则这 $n$ 次抛硬币正面朝上次数为 $k$ 的概率是：<br>$$<br>p(k)=\frac{n!}{(n-k)!k!}*p^k(1-p)^{n-k}<br>$$<br>在 $n$ 次正面朝上抛硬币中，正面朝上的期望是<br>$$<br>E=pn<br>$$<br>而如果我们假设期望 $E$ 为一恒定值 $\lambda$，$n\to\infty$时，此时 $p$ 是一个很小的值，二项分布便近似于泊松分布。</p>
+<p>泊松分布假设在单位时间内随机事件发生的平均次数是确定的，为 $\lambda$ ，而随机事件所发生的具体次数便符合泊松分布：<br>$$<br>p(N=k)=\frac{e^{-\lambda}\lambda^k}{k!}<br>$$<br>例如：已知医院平均每小时出生3个婴儿， 请问下一个小时出生几个？这里 $\lambda=3$，$N=0, 1, 2, 3…$服从泊松分布。</p>
+<h4 id="指数分布"><a href="#指数分布" class="headerlink" title="指数分布"></a>指数分布</h4><p>指数分布是服从泊松分布的两事件发生的时间间隔的概率分布。</p>
+<p>当从一个事件发生后开始计时，到下一个事件发生中间经历 $t$ 个单位时间，则此时的概率为：<br>$$<br>p(X&gt;t)  = p(N=0) = \frac{\lambda^0e^{-\lambda}}{0!} =  e^{-\lambda}<br>$$<br>而相反 $p(X\leq t) = 1 - p(X&gt;t)$<br>$$<br>p(X\leq t)=1-p(N=0)=1-e^{-\lambda}<br>$$</p>
+<h4 id="泊松过程"><a href="#泊松过程" class="headerlink" title="泊松过程"></a>泊松过程</h4><p>在数理统计中，过程是一个物理系统的随机模型，即是连续的，随机事件多次发生的模型。如泊松过程就是一个事件序列的模型，每个事件服从泊松分布。</p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/读书笔记/" rel="tag"># 读书笔记</a>
+          
+            <a href="/tags/概率论与统计/" rel="tag"># 概率论与统计</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/07/07/《贝叶斯思维》读书笔记（2）/" rel="next" title="《贝叶斯思维》读书笔记（2）">
+                <i class="fa fa-chevron-left"></i> 《贝叶斯思维》读书笔记（2）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -345,6 +435,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -365,8 +459,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -437,6 +540,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#胜率"><span class="nav-number">1.</span> <span class="nav-text">胜率</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#奥利弗的血迹"><span class="nav-number">2.</span> <span class="nav-text">奥利弗的血迹</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#概率质量函数、概率密度函数与累积分布函数"><span class="nav-number">3.</span> <span class="nav-text">概率质量函数、概率密度函数与累积分布函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#泊松分布"><span class="nav-number">4.</span> <span class="nav-text">泊松分布</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#指数分布"><span class="nav-number">5.</span> <span class="nav-text">指数分布</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#泊松过程"><span class="nav-number">6.</span> <span class="nav-text">泊松过程</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -577,6 +696,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
